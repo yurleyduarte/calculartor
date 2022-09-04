@@ -1,0 +1,28 @@
+.display {
+    height: 34vh;
+    width: 45vh;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    align-content: flex-end;
+}
+
+.operation {
+    width: 45vh;
+    height: 8vh;
+    padding-right: 4vh;
+    font-size: 4vh;
+    color: #b9babc;
+}
+
+.operator{
+    color: #d23f5f;
+}
+
+.result {
+    width: 45vh;
+    height: 12vh;
+    padding-right: 4vh;
+    font-size: 8vh;
+}

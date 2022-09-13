@@ -23,4 +23,4 @@ const Button = ({ color, dato }) => {
   );
 };
 
-export default Button
+export default Button;

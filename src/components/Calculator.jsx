@@ -1,6 +1,6 @@
-import React from 'react'
-import Board from './Board'
-import Display from './Display'
+import React from 'react';
+import Board from './Board';
+import Display from './Display';
 
 import styles from '../css/calculator.module.css'
 
@@ -10,7 +10,7 @@ const Calculator = () => {
         <Display />
         <Board /> 
     </div>
-  )
-}
+  );
+};
 
-export default Calculator
+export default Calculator;

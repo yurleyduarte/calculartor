@@ -1,5 +1,5 @@
-import React from 'react'
-import styles from '../css/display.module.css'
+import React from 'react';
+import styles from '../css/display.module.css';
 
 const Display = () => {
   return (
@@ -9,7 +9,7 @@ const Display = () => {
       </div>
       <div className={styles.result}>2</div>
     </div>
-  )
-}
+  );
+};
 
-export default Display
+export default Display;

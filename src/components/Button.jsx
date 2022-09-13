@@ -18,7 +18,7 @@ const Button = ({ color, dato }) => {
   }
   return (
     <div className={styles.containerBtn}>
-      <Button className={`${styles.btn} ${bntColor}`}>{dato}</Button>
+      <Button className={`${styles.btn} ${btnColor}`}>{dato}</Button>
     </div>
   );
 };

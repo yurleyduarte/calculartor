@@ -1,11 +1,15 @@
 import React from 'react';
 import styles from '../css/container.module.css';
-import Calculator from './Calculator';
+import Display from './Display';
+import Board from './Board';
 
 const Container = () => {
   return (
     <main className={styles.container}>
-      <Calculator />
+      <div className={styles.calculator}>
+        <Display />
+        <Board />
+      </div>
     </main>
   );
 };
